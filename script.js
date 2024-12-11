@@ -8,81 +8,82 @@ document.addEventListener('DOMContentLoaded', function() {
             // Array de URLs de imágenes de fondo
             const backgroundImages = [
                 
-'img/01-andres-jimenez.png',
+  'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/37729.png&w=350&h=254',
 
-'img/02-luis-angel-acuña.png',
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/42411.png&w=350&h=254',
 
-'img/03-francisco-alvarez.png',
-               
-'img/04-luis-arraez.png',
-                
-'img/05-brayan-rocchio.png',
-               
-'img/06-ranger-suarez.png',
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/41253.png&w=350&h=254',
 
-'img/07-luis-garcia.png',
-                
-'img/08-orlando-arcia.png',
-                
-'img/09-pablo-lopez.png',
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/39572.png&w=350&h=254',
 
-'img/10-jackson-chourio.png',
-                
-'img/11-maikel-garcia.png',
-                
-'img/12-luis-torrens.png',
-               
-'img/13-ronald-acuña.png',
-                
-'img/14-salvador-perez.png',
-                
-'img/15-ezequiel-tovar.png',
-                
-'img/16-miguel-roja.png',
-                
-'img/17-eduardo-rodriguez.png',
-                
-'img/18-brusdar-graterol.png',
-                
-'img/19-ildemaro-vargas.png',
-                
-'img/20-jose-suarez.png ',
-               
-'img/21-wilmer-flores.png',
-               
-'img/22-williams-contreras.png',
-                
-'img/23-david-peralta.png',
-                
-'img/24-miguel-cabrera.png',
-                
-'img/25-anthony-santander.png',
-                
-'img/26-gleyber-torres.png',
-                
-'img/27-jose-altuve.png',
-                
-'img/28-eugenio-suarez.png',
-               
-'img/29-german-marquez.png',
-                
-'img/30-oswaldo-cabrera.png',
-                
-'img/31-wilmer-contreras.png',
-                
-'img/32-martin-perez.png',
-                
-'img/33-gabriel-montero.png',
-                
-'img/34-freddy-fermin.png',
-                
-'img/35-robert-suarez.png',
-               
-'img/36-jose-alvarado.png',
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/41217.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/39817.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4684365.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32530.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/39671.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4917869.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4905884.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33805.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36185.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31127.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4905919.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30791.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32675.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/40965.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32985.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/40981.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30627.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/39895.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33384.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/5544.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36084.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33804.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31662.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32367.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/34874.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/40835.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32532.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31098.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/42464.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/41928.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4148749.png&w=350&h=254',
+
+                'https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36063.png&w=350&h=254',
+              'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjB-_RS1oS9D09PZNG3b7yVUcwY6iLe8K_U2699ch4YYUG1CgpqI_5flL-nVtdaxQOTX8fnjtwxrwP9HKA7o90DcoUgPXJmUFQsuQxpYnG5X7wrsbuTkzRSjc9Y4AkQQRI13gpb8OmlNEAAz0LzzuYW5tCKtYdn3hIPr3Jop2rkSJU88JlybGPAn-i5qd_/s1600/2024112914014828.png&w=350&h=254'         
             ];
 
-            // Generar los 36 números
-            for (let i = 1; i <= 36; i++) {
+            // Generar los 37 números
+            for (let i = 1; i <= 37; i++) {
                 const numberDiv = document.createElement('div');
                 numberDiv.className = 'number';
                 numberDiv.innerHTML = `<span>${i}</span>`;
