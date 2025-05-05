@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ];
 
             // Generar los 37 números
-            for (let i = 1; i <= 37; i++) {
+            for (let i = 1; i <= 36; i++) {
                 const numberDiv = document.createElement('div');
                 numberDiv.className = 'number';
                 numberDiv.innerHTML = `<span>${i}</span>`;
